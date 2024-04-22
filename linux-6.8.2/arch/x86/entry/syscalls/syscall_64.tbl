@@ -383,6 +383,16 @@
 459	common	lsm_get_self_attr	sys_lsm_get_self_attr
 460	common	lsm_set_self_attr	sys_lsm_set_self_attr
 461	common	lsm_list_modules	sys_lsm_list_modules
+462 common  write_global_var    sys_write_global_var
+463 common  write_global_var_with_param sys_write_global_var_with_param
+464 common  read_global_var sys_read_global_var
+465 common  read_global_var_explicit    sys_read_global_var_explicit
+466 common  read_global_var_implicit    sys_read_global_var_implicit
+467 common  read_global_var_with_param  sys_read_global_var_with_param
+468 common  write_global_array  sys_write_global_array
+469 common  read_global_struct  sys_read_global_struct
+470 common  write_param_into_struct sys_write_param_into_struct
+471 common  write_param_into_var sys_write_param_into_var
 
 #
 # Due to a historical design error, certain syscalls are numbered differently

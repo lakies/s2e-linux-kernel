@@ -1,0 +1,1 @@
+obj-$(CONFIG_SYSCALL_TEST) += custom_syscalls.o

@@ -1,0 +1,5 @@
+config SYSCALL_TEST
+    tristate "Custom Syscalls Module"
+    default y
+    help
+      This option enables the custom syscalls kernel module.
